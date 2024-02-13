@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html>
+	<form action="control_form.php" method="get">
+		<fieldset>
+			<legend>Datos del cliente </legend>
+			  <p>Escriba su nombre <input type="text" name="nombre"> </p>
+			  <p>Escriba se telefono <input type="tel" name="nombre"> </p>
+			  <p>Escriba su E-mail <input type="email" name="nombre"> </p>
+		</fieldset>
+
+	<form action="control_form.php" method="get">
+		<fieldset>
+			<legend>Libros </legend>
+			<form action="control_form.php" method="get">
+			Selecciona un libro
+				<select name= "libros">
+					<option value="CB"> HTML5 Canvas by Steve Fulton &      Jeff Fulton </option>
+					<option value="TD"> JavaScript: The Definitive Guide by David Flanagan </option>
+					<option value="GB"> HTML5 Geolocation by Anthony ||| </option>
+					<option value="SJ"> Supercharged JavaScript Graphics by Raffaele Cecco </option>
+					<option value="HU"> HTML5: Up and running by Mark Pilgrim </option>
+				</select>
+				cantidad (max 5) <input type="number" max="5" min="0" name="nombre">
+		</fieldset>
+	<input type="submit" value="comprar">
+</html>
